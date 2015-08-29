@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>TUTORIAL</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element* inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+					<section>
+						<h2>TUTORIAL</h2>
+						<p>You are about to take part in a negotiation between an employer and a job candidate</p>
+						<p></p>
+						<p class="fragment">You are the <strong>employer</strong></p>
+					</section>
+				</section>
+
+				<section>
+					<h2></h2>
+					<p>These are the negotiation issues</p>
+					<ul>
+						<li>Salary</li>
+						<li>Job description</li>
+						<li>Car benefit</li>
+						<li>Pension fund</li>
+						<li>Promotion track</li>
+						<li>Working hours</li>
+					</ul>
+					<p></p>
+					<p class="fragment">Each issue has set of possibilities with corresponding scores</p>
+				</section>
+
+				<section>
+					<section>
+						<h2></h2>
+						<p>Your goal is to archive the maximum score based on a score table.</p>
+						<p></p>
+						<p class="fragment">The score table are available in the negotiation session. There is no need to memorize it.</p>
+					</section>
+				</section>
+
+				<section>
+					<h2>Salary</h2>
+					<table>
+						<tbody>
+							<tr>
+								<td>60,000 USD</td>
+								<td><font color="green">+160</font></td>
+							</tr>
+							<tr>
+								<td>90,000 USD</td>
+								<td><font color="green">+120</font></td>
+							</tr>
+							<tr>
+								<td>120,000 USD</td>
+								<td><font color="green">+60</font></td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+
+				<section>
+					<h2>Job description</h2>
+					<table>
+						<tbody>
+							<tr>
+								<td>Project manager</td>
+								<td><font color="green">+40</font></td>
+							</tr>
+							<tr>
+								<td>Team manager</td>
+								<td><font color="green">+80</font></td>
+							</tr>
+							<tr>
+								<td>QA</td>
+								<td><font color="green">+80</font></td>
+							</tr>
+							<tr>
+								<td>Programmer</td>
+								<td><font color="green">+120</font></td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+
+				<section>
+					<h2>Leased car</h2>
+					<table>
+						<tbody>
+							<tr>
+								<td>With a car</td>
+								<td><font color="red">-20</font></td>
+							</tr>
+							<tr>
+								<td>No agreement</td>
+								<td><font color="green">+0</font></td>
+							</tr>
+							<tr>
+								<td>Without a car</td>
+								<td><font color="green">+30</font></td>
+							</tr>
+						</tbody>
+					</table>
+				</section>	
+
+				<section>
+					<h2>Pension fund</h2>
+					<table>
+						<tbody>
+							<tr>
+								<td>0%</td>
+								<td><font color="green">+30</font></td>
+							</tr>
+							<tr>
+								<td>10%</td>
+								<td><font color="green">+40</font></td>
+							</tr>
+							<tr>
+								<td>20%</td>
+								<td><font color="green">+30</font></td>
+							</tr>
+							<tr>
+								<td>No agreement</td>
+								<td><font color="green">+0</font></td>
+							</tr>
+						</tbody>
+					</table>
+				</section>	
+
+				<section>
+					<h2>Promotion track</h2>
+					<table>
+						<tbody>
+							<tr>
+								<td>Slow track</td>
+								<td><font color="green">+30</font></td>
+							</tr>
+							<tr>
+								<td>Fast track</td>
+								<td><font color="green">+30</font></td>
+							</tr>
+							<tr>
+								<td>No agreement</td>
+								<td><font color="green">+0</font></td>
+							</tr>
+						</tbody>
+					</table>
+				</section>	
+
+				<section>
+					<h2>Working hours</h2>
+					<table>
+						<tbody>
+							<tr>
+								<td>8 hours</td>
+								<td><font color="green">+90</font></td>
+							</tr>
+							<tr>
+								<td>9 hours</td>
+								<td><font color="green">+180</font></td>
+							</tr>
+							<tr>
+								<td>10 hours</td>
+								<td><font color="green">+240</font></td>
+							</tr>
+						</tbody>
+					</table>
+				</section>	
+
+				<section>
+					<h2></h2>
+					<p>Some issues contains <strong>No agreement</strong> value. These issues are minor issues and an agreement can be reached without agreeing on them explicitly.</p>
+				</section>
+
+				<section>
+					<h2></h2>
+					<p>The maximum negotiation time is <strong>30 minute.</strong></p>
+					<div class="fragment">
+						<p>Time affects the values of the agreement.</p>
+						<p> As time passes, both sides lose points.</p>
+					</div>
+					<p class="fragment">Because of this, it may be better to get a worse agreement quickly.</p>
+				</section>
+
+				<section>
+					<h2></h2>
+					<p>Each side can decide at any time to <strong>opt out</strong> of the negotiation if it feels that there is no more hope to reach an agreement via negotiation.</p>
+					<p class="fragment">Usually <strong>not</strong> a good strategy</p>
+				</section>
+
+				<section>
+					<h2></h2>
+					<img data-src="./images/1.png">
+					<p>This is where you write your text. Write text in plain English, as if you were talking. Press <strong>Say</strong> to send the message to the other player.</p>
+				</section>
+
+				<section>
+					<h2></h2>
+					<p>Your score table can be seen by pressing <strong>Your scores</strong> button</p>
+					<p>Pressing <strong>Opt-out</strong> will end the negotiation.</p>
+				</section>
+
+				<section>
+					<h2></h2>
+					<p>To sign on an agreement you must click the same values as your partner. As you click on the same one, it turns green.</p>
+				</section>
+
+				<section>
+					<h2>THE END</h2>
+					<p>Once your understand the rules, please take a short quiz. Then, you can start!</p>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+	</body>
+</html>
